@@ -1,0 +1,178 @@
+body {
+	background-color:white;
+	margin:0px;
+	top:0;
+
+	
+}
+
+nav {
+	background-color:darkorange;
+	height:80px;
+
+	
+
+}
+
+nav ul {
+	text-align:center;
+	padding-top:15px;
+	padding-left:;
+}
+
+nav ul  li {
+	display:inline-block;
+	padding:10px;
+	font-size: 15px;
+
+
+}
+
+
+nav li a {
+	color:white;
+	text-decoration:none;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+   margin-right:200px;
+
+   font-size:25px ;
+}
+
+.active {
+	color:white;
+	font-weight:bold;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.search {
+	height:60px;
+	background-color: white;
+	
+}
+
+.search > input {
+	float:right;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	height: 25px;
+	width:200px;
+	margin-top:10px;
+	margin-right:20px; 
+	font-size:20px;
+	background-color: #F0F0F0;
+	box-shadow: 5px 10px;
+	border:none;
+}
+input {
+	color:#C0C0C0;
+}
+
+
+
+
+.pic {
+	display:inline-block;
+	height:400px;
+	background-color:white;
+	width:49%;
+	vertical-align: top;
+	margin:0;
+}
+
+#pic {
+	width:;
+	background-image:url("../img/orange.jpg");
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position:center;
+	animation: bounce;
+
+	
+}
+
+.pic h1 {
+	margin-top:10px;
+    font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	font-size:30px;
+	padding:-10px;
+	color:orange;
+
+}
+
+.active2 {
+	color:#FD7E00 ;
+	font-size:30px;
+	font-weight:900;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+
+.overall {
+	border:;
+	margin-top:80px;
+
+}
+
+.button {
+	background-color: #9BCDCB ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#two {
+	background-color: #FD7E00 ;
+}
+
+.footer {
+	height:80px;
+	width:100%;
+	background-color:#9BCDCB;
+	text-align:center;
+	
+}
+
+.mode {
+	font-size: 15px;
+	vertical-align: top;
+
+}
+
+.mode2 {
+	font-size:15px;
+	vertical-align: top;
+
+}
+
+.web {
+	color:#9BCDCB;
+}
+
+@media (max-width:760px)  {
+
+	div.pic{
+		display: block;
+		width:100%;
+	}
+}
+
+@media (max-width: 885px) {
+	.overall h1 {
+		font-size: 20px;
+	}
+	.button {
+		font-size: 10px;
+	}
+}
